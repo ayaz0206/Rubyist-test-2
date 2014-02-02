@@ -11,6 +11,11 @@ class Takeaway
 		]
 		end
 
-		
+		attr_accessor :order
+
+		def initialize
+			@order = []
+		end
+
 
 end
